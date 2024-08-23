@@ -1,0 +1,21 @@
+Destination Port,Protocol,Count
+49153,tcp,2
+993,tcp,1
+68,udp,1
+49166,icmp,1
+49156,tcp,2
+49155,tcp,2
+49154,tcp,2
+443,tcp,1
+49158,tcp,1
+49169,tcp,1
+110,tcp,1
+143,tcp,1
+1024,tcp,2
+0,icmp,1
+49168,udp,1
+49167,udp,1
+49170,tcp,1
+25,tcp,1
+80,tcp,1
+23,tcp,2
