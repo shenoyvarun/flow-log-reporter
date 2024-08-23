@@ -15,7 +15,7 @@ To compile & run (java17):
 
 Note: If testing is needed with a particular file template, add a file with name 'flow_logs.log' in /data_sources and directly run Step 2 above 
    OR
-      Replace value of FLOW_LOG_FILE in src.Utilities.java with the file name of your choice and then run Step 2
+      Replace value of FLOW_LOG_FILE in src/Utilities.java with the file name of your choice and then run Step 2
 
 Assumptions:
 Following validations have been put in place:
@@ -30,4 +30,4 @@ Tests:
 2. Insensitive Case
 3. Unparseable data. Eg: version = "abc"
 4. Ran with data_sources/flow_logs_1.log to test logic with all scenarios 
-5. Using src.GenerateFlowLogs to create a flow_logs.log file > 50MB to Load Test
+5. Using src/GenerateFlowLogs to create a flow_logs.log file > 50MB to Load Test
